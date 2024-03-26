@@ -1,5 +1,3 @@
-function display(name){
-    console.log(name)
-    return name;
-}
-display("api-send-gmail")
+var searchRange = function(nums, target) {
+    return [nums.indexOf(target),nums.lastIndexOf(target)];
+};
